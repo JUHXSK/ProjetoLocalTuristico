@@ -1,67 +1,115 @@
-/*{
+body, h1, p, img, div {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-:root{
-    font-family: "Alice", serif;
-    line-height: 150%;
-    color: #573A37;
-}
-
 
 body {
-    background-image: url(images/bg.png);
-    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    color: #333;
 }
 
-#page {
-    box-sizing: border-box;
-    width: 800px;
-    padding: 24px;
-    background-color: #F0E8C2;
-    border-radius: 24px;
-    margin: 48px auto;
+.container {
+    max-width: calc(100% - 160px);
+    margin: 0 auto; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-img {
-    border-radius: 16px;
-}
-
-main {
-    padding: 24px;
+header {
+    color: #ee850e;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 8px 8px 0 0;
 }
 
 section {
-    margin-top: 24px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
-#about p + p {
-    margin-top: 12px;
+section:last-of-type {
+    border-bottom: none;
 }
 
 h1 {
-    line-height: 140%;
-    font-size: 40px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
 }
 
-h2 { 
-    font-family: 24px;
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
 }
 
-h1, h2 { 
-    color: #291B1A;
-    margin-bottom: 4px;
-    line-height: 150%;
+img {
+    max-width: 100%;
+    border-radius: 16px;
+    margin-bottom: 10px;
 }
 
-ul {
-    padding-left: 26px;
+#conheca img {
+    width: 80%;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto 20px auto;
 }
-*/
+
+#conheca {
+    font-style: italic;
+}
+
+#descobrindo h1 {
+    color: #ee850e;
+    padding: 20px;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+#destino1, #destino2, #destino3 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+#destino1 img, #destino2 img, #destino3 img {
+    max-width: 70%;
+}
+
+#destino1 h1, #destino2 h1, #destino3 h1 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#divisor img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#conteudo-final {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+}
+
+#conteudo-final p {
+    margin: 0;
+}
+
 footer {
     text-align: center;
-    margin-bottom: 24px;
-    font-size: 16px;
-    color: #FFFF;
+    padding: 10px;
+    color: #161414;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
