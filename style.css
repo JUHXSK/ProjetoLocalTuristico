@@ -1,3 +1,7 @@
+/* @import url(reset.css); */
+@import url(styleConfig.css);
+@import url(header.css);
+
 body, h1, p, img, div {
     margin: 0;
     padding: 0;
@@ -5,10 +9,10 @@ body, h1, p, img, div {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
     line-height: 1.6;
     padding: 20px;
-    color: #333;
+    color: var(--primary-background);
 }
 
 .container {
@@ -19,14 +23,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-header {
-    color: #ee850e;
-    font-weight: bold;
-    padding: 20px;
-    text-align: left;
-    font-size: 1.1rem;
-    border-radius: 8px 8px 0 0;
-}
+
 
 section {
     margin: 20px 30px auto;

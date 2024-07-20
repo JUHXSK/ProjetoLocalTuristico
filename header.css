@@ -1,0 +1,12 @@
+.iconeusuario{
+    padding: 1rem;
+}
+
+header {
+    color: #ee850e;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.1rem;
+    border-radius: 8px 8px 0 0;
+}
